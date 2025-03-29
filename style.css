@@ -1,0 +1,149 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #007bff;
+    color: white;
+}
+
+header .Logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção Hero */
+.hero {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero h2 span {
+    color: #ff4757;
+}
+
+.hero img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+/* Informações do curso */
+.course-info {
+    background-color: #eef1f7;
+    padding: 40px 10%;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.details p {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    border: 3px solid #ccc;
+}
+
+.price {
+    background-color: #ff4757;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 12px;
+    border: 3px solid #ccc;
+}
+
+/* Sobre o curso */
+.about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Benefícios */
+.benefits {
+    padding: 40px 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Inscrição */
+.signup {
+    background-color: #2b2d42;
+    color: white;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.signup h3 {
+    font-size: 28px;
+    color: #50c8ff;
+}
+
+.signup p {
+    font-size: 16px;
+    margin: 10px 0 20px;
+}
+
+.signup .btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
